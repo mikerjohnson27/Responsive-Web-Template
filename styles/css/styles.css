@@ -48,8 +48,8 @@ body{
 .nav-block-right{
     cursor: pointer;
     display: inline-flex;
-    width: 15%;
-    height: 50px;
+    width: 20%;
+    height: 60px;
     justify-content: end;
     align-items: right;
 }
@@ -60,17 +60,26 @@ body{
     border-left-width:  1px;
     border-left-style:  solid;
     display: inline-block;
-    max-width: 10%;
-    margin: 15px;
-    height: 20px;
-    padding: 10px;
+    width: 20%;
+    height: 60px;
     justify-content: center;
     text-align: center;
     vertical-align: middle;
-    border-radius: 10%;
+    border-radius: 1%;
 }
-.nav-item > h2{
-    font-size: 10px;
+.nav-item-2{
+    display: inline-block;
+    width: 49%;
+    height: 60px;
+}
+.nav-item-2:hover{
+    width: 49%;
+    border-left-color: white;
+    border-left-width:  1px;
+    border-left-style:  solid;
+    border-right-color: white;
+    border-right-width:  1px;
+    border-right-style:  solid;
 }
 .nav-item:hover{
     border-left-color: white;
@@ -82,11 +91,11 @@ body{
 }
 h1{
     color: lightgray;
-    font-size: medium;
+    font-size: large;
 }
 h2{
     color:lightgray;
-    font-size: small;
+    font-size: large;
     justify-content: center;
     text-align: center;
 }
@@ -122,6 +131,10 @@ h2{
         }
         .nav-item{
             display: none;
+        }
+        h1{
+            color: lightgray;
+            font-size: medium;
         }
     }
     @media screen and (max-width: 1130px) {
